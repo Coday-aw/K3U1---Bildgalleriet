@@ -1,0 +1,285 @@
+{
+  "images": [
+    {
+      "id": 1,
+      "url": "./images/natur/natur1.jpg",
+      "category": "natur",
+      "alt": "Bild på blommor",
+      "tags": ["natur", "blommor"]
+    },
+    {
+      "id": 2,
+      "url": "./images/natur/natur2.jpg",
+      "category": "natur",
+      "alt": "Bild på naturen",
+      "tags": ["berg", "grönt", "natur"]
+    },
+    {
+      "id": 3,
+      "url": "./images/natur/natur3.jpg",
+      "category": "natur",
+      "alt": "Bild på naturen",
+      "tags": ["dalar", "grönt", "natur"]
+    },
+    {
+      "id": 4,
+      "url": "./images/natur/natur4.jpg",
+      "category": "natur",
+      "alt": "Bild på himmelen från berg",
+      "tags": ["natur", "himmel", "berg"]
+    },
+    {
+      "id": 5,
+      "url": "./images/natur/natur5.jpg",
+      "category": "natur",
+      "alt": "Bild på norsken mellan 2 berg",
+      "tags": ["norsken", "berg", "natur"]
+    },
+    {
+      "id": 6,
+      "url": "./images/natur/natur6.jpg",
+      "category": "natur",
+      "alt": "Bild på moln ",
+      "tags": ["himmel", "moln", "natur"]
+    },
+    {
+      "id": 7,
+      "url": "./images/natur/natur7.jpg",
+      "category": "natur",
+      "alt": "Bild på skog",
+      "tags": ["skog", "träd", "natur"]
+    },
+    {
+      "id": 8,
+      "url": "./images/natur/natur8.jpg",
+      "category": "natur",
+      "alt": "Bild på ett träd",
+      "tags": ["träd", "skog", "natur"]
+    },
+    {
+      "id": 9,
+      "url": "./images/natur/natur9.jpg",
+      "category": "natur",
+      "alt": "Bild på vulkan utbrott ",
+      "tags": ["vulkan", "natur", "utbrott"]
+    },
+    {
+      "id": 10,
+      "url": "./images/natur/natur10.jpg",
+      "category": "natur",
+      "alt": "Bild på stranden och havet",
+      "tags": ["strand", "hav", "natur"]
+    },
+    {
+      "id": 11,
+      "url": "./images/djur/djur1.jpg",
+      "category": "djur",
+      "alt": "Bild på en räv i snön",
+      "tags": ["räv", "djur", "vild"]
+    },
+    {
+      "id": 12,
+      "url": "./images/djur/djur2.jpg",
+      "category": "djur",
+      "alt": "Bild på en ekorre",
+      "tags": ["ekorre", "djur", "vild"]
+    },
+    {
+      "id": 13,
+      "url": "./images/djur/djur3.jpg",
+      "category": "djur",
+      "alt": "Bild på en fjäril",
+      "tags": ["fjäril", "djur", "vild"]   
+    },
+    {
+      "id": 14,
+      "url": "./images/djur/djur4.jpg",
+      "category": "djur",   
+      "alt": "Bild på en leopard",
+      "tags": ["leopard", "djur", "zoo"]
+    },
+    {
+      "id": 15,
+      "url": "./images/djur/djur5.jpg",
+      "category": "djur",
+      "alt": "Bild på en isbjörn",
+      "tags": ["isbjörn", "djur", "vild"]
+    },
+    {
+      "id": 16,
+      "url": "./images/djur/djur6.jpg",
+      "category": "djur",
+      "alt": "Bild på en häst", 
+      "tags": ["häst", "djur", "vit"]       
+    },
+    {
+      "id": 17,
+      "url": "./images/djur/djur7.jpg",
+      "category": "djur",
+      "alt": "Bild på en kossa",  
+      "tags": ["ko", "djur", "gård"]
+    },
+    {
+      "id": 18,
+      "url": "./images/djur/djur8.jpg",
+      "category": "djur",
+      "alt": "Bild på en får",  
+      "tags": ["får", "djur", "gård", "ler"]       
+    },
+    {
+      "id": 19,
+      "url": "./images/djur/djur9.jpg",
+      "category": "djur",
+      "alt": "Bild på en bambi",  
+      "tags": ["bambi", "djur", "skog"]       
+    },
+    {
+      "id": 20,  
+      "url": "./images/djur/djur10.jpg",
+      "category": "djur",
+      "alt": "Bild på en skölpadda",  
+      "tags": ["skölpadda", "djur", "vattendjur"]       
+    },
+    {
+      "id": 21,
+      "url": "./images/konst/konst1.jpg",
+      "category": "konst",
+      "alt": "Bild på en konst målning",
+      "tags": ["målning", "konst", "färgglad"]
+    },
+    {
+      "id": 22,
+      "url": "./images/konst/konst2.jpg",
+      "category": "konst",
+      "alt": "Bild på en abstrakt konst",
+      "tags": ["abstrakt", "konst", "färgglad"]
+    },
+    {
+      "id": 23,
+      "url": "./images/konst/konst3.jpg",
+      "category": "konst",
+      "alt": "Bild på en skulptur",
+      "tags": ["skulptur", "konst", "sten"]
+    },
+    {
+      "id": 24,
+      "url": "./images/konst/konst4.jpg",
+      "category": "konst",
+      "alt": "Bild på en graffiti vägg",
+      "tags": ["graffiti", "konst", "färgglad"]
+    },
+    {
+      "id": 25,
+      "url": "./images/konst/konst5.jpg",
+      "category": "konst",
+      "alt": "Bild på en modern konst",
+      "tags": ["modern", "konst", "färgglad"]
+    },
+    
+    {
+      "id": 26,
+      "url": "./images/konst/konst6.jpg",
+      "category": "konst",
+      "alt": "Bild på en konst installation",
+      "tags": ["installation", "konst", "färgglad"]
+    },
+    {
+      "id": 27,
+      "url": "./images/konst/konst7.jpg",
+      "category": "konst",
+      "alt": "Bild på en porträtt målning",
+      "tags": ["porträtt", "konst", "målning"]
+    },
+    {
+      "id": 28,
+      "url": "./images/konst/konst8.jpg",
+      "category": "konst",
+      "alt": "Bild på en landskap målning",
+      "tags": ["landskap", "konst", "målning"]
+    },
+    {
+      "id": 29,
+      "url": "./images/konst/konst9.jpg",
+      "category": "konst",
+      "alt": "Bild på en surrealistisk konst",
+      "tags": ["surrealistisk", "konst", "färgglad"]
+    },
+    {
+      "id": 30,
+      "url": "./images/konst/konst10.jpg",
+      "category": "konst",
+      "alt": "Bild på en klassisk konst",
+      "tags": ["klassisk", "konst", "målning"]
+    },
+    {
+      "id": 31,
+      "url": "./images/sport/sport1.jpg",
+      "category": "sport",
+      "alt": "Bild på en golfspelare",
+      "tags": ["golf", "sport", "sväng"]
+    },
+    {
+      "id": 32,
+      "url": "./images/sport/sport2.jpg",
+      "category": "sport",
+      "alt": "Bild på en tennismatch",
+      "tags": ["tennis", "sport", "match"]
+    },
+    {
+      "id": 33,
+      "url": "./images/sport/sport3.jpg",       
+      "category": "sport",
+      "alt": "Bild på ett volleybollslag",
+      "tags": ["volleyboll", "sport", "match"]
+    },
+    {
+      "id": 34,
+      "url": "./images/sport/sport4.jpg",       
+      "category": "sport",   
+      "alt": "Bild på en cyklister",
+      "tags": ["cykling", "sport", "tävlng"]
+    }, 
+    {
+      "id": 35,
+      "url": "./images/sport/sport5.jpg",       
+      "category": "sport",
+      "alt": "Bild på en basketboll som går i korgen",
+      "tags": ["basket", "sport", "tävlng"]
+    }, 
+    {
+      "id": 36,
+      "url": "./images/sport/sport6.jpg",       
+      "category": "sport",
+      "alt": "Bild på en skydåkare",
+      "tags": ["skydåkning", "sport", "vinter"]
+    }, 
+    {
+      "id": 37,
+      "url": "./images/sport/sport7.jpg",       
+      "category": "sport",
+      "alt": "Bild på en simmare",
+      "tags": ["simning", "sport", "vatten"]
+    }, 
+    {
+      "id": 38,
+      "url": "./images/sport/sport8.jpg",       
+      "category": "sport",
+      "alt": "Bild på en människa som gör yoga",
+      "tags": ["yoga", "sport", "avkoppling"]
+    }, 
+    {
+      "id": 39,
+      "url": "./images/sport/sport9.jpg",       
+      "category": "sport",
+      "alt": "Bild på en löpare",
+      "tags": ["löpning", "sport", "tävlng"]
+    }, 
+    {
+      "id": 40,
+      "url": "./images/sport/sport10.jpg",       
+      "category": "sport",
+      "alt": "Bild på en fotbollsmatch",
+      "tags": ["fotboll", "sport", "match"]
+    }
+  ]
+}
