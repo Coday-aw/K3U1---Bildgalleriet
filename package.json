@@ -1,4 +1,8 @@
 {
+  "name": "bildgalleriet",
+  "version": "1.0.0",
+  "description": "A simple image gallery",
+  "main": "main.js",
   "type": "module",
   "scripts": {
    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
@@ -7,5 +11,8 @@
   "devDependencies": {
     "jest": "^30.2.0",
     "eslint": "^8.0.0"
+  }, 
+   "jest": {
+    "testEnvironment": "node"
   }
 }

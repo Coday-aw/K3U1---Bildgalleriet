@@ -1,7 +1,7 @@
 import { filterBySearch, filterByCategory, getNextBatch, loadImageData } from "./src/data.js";
 import { jest } from "@jest/globals"
 
-// Mocka fetch globalt, används för funcktion som använder fetch (loadImageData)
+// Mocka fetch globalt, använder detta för funcktion som använder fetch (loadImageData)
 global.fetch = jest.fn();
 
 describe("Galleri – logiktester", () => {
