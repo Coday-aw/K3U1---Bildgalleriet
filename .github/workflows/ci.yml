@@ -49,8 +49,4 @@ jobs:
         env:
             token: $ secrets.CODECOV_TOKEN 
       
-      # Bygg projektet - OBS Build-steget är bara nödvändigt för projekt som använder
-      # bundlers som Vite, Webpack eller frameworks som React/Vue 
-      # behövs ej för vanilla JavaScript men ska konfigureras här när det används
-      #- name: Build project
-      #  run: npm run build
+   

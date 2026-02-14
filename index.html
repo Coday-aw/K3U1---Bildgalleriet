@@ -24,11 +24,12 @@
           <button id="konst">Konst</button>
         </section>
         <section id="search">
-          <input id="searchInput" type="text" placeholder="Sök..." aria-labelledby="search" />
-          <i id="searchIcon" class="fa-solid fa-magnifying-glass"></i>
+          <label for="searchInput" class="visually-hidden">sök bilder</label>
+          <input id="searchInput" type="text" placeholder="Sök..."/>
+          <i id="searchIcon" class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
         </section>
       </header>
-      <dialog id="dialog"></dialog>
+      <dialog id="dialog" aria-modal="true"></dialog>
       <section id="content"></section>
       <button id="loadMore">Ladda mer</button>
     </main>

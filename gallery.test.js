@@ -10,8 +10,6 @@ import {
 import  { describe, test, expect} from "@jest/globals";
 
 
-// Mocka fetch globalt, använder detta för funcktion som använder fetch (loadImageData)
-
 
 describe("Galleri – logiktester", () => {
   
