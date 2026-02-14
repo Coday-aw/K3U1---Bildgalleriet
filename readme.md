@@ -45,13 +45,3 @@ statusrapport direkt i GitHub
 
 Det säkerställer att koden alltid är testad och validerad innan merge.
 
-## Projektstruktur
-.github/workflows/ci.yml
-images
-src/
-  app.js
-  logic.js
-  dom.js
-styles.css
-index.html
-gallery.test.js
