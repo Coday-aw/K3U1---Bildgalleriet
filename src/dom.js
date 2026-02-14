@@ -1,7 +1,7 @@
-import { getNextBatch} from "./data.js";
+import { getNextBatch }  from "./logic.js";
 
 // create next batch of images and create an image element
-export function renderBatch(images, index, content, onClick) {
+function renderBatch(images, index, content, onClick) {
   const batch = getNextBatch(images, index);
 
   batch.forEach((image) => {
@@ -17,25 +17,24 @@ export function renderBatch(images, index, content, onClick) {
 }
 
 // function to hide load more button when where are no more images
-export function updateLoadMoreButton(loadMoreBtn, currentIndex, total) {
+function updateLoadMoreButton(loadMoreBtn, currentIndex, total) {
   loadMoreBtn.style.display = currentIndex >= total ? "none" : "block";
 }
 
-// create modal when image is clicked with a bigger version of the images
-export function createModal(dialog, url, alt) {
+
+// create modal when image is clicked
+function createModal(dialog, url, alt) {
   dialog.show();
   dialog.innerHTML = `
     <img class="img" src="${url}" alt="${alt}" loading="lazy" />
     <button class="close-btn">X</button>
   `;
-  const closeBtn = document.querySelector(".close-btn")
-  closeBtn.addEventListener("click", () => {
-  dialog.close();
-  });
+  const closeBtn = document.querySelector(".close-btn");
+  closeBtn.addEventListener("click", () => dialog.close());
 }
 
 // categories for the buttons
-export const categoryMap = {
+const categoryMap = {
   alla: null,
   natur: "natur",
   djur: "djur",
@@ -43,9 +42,12 @@ export const categoryMap = {
   konst: "konst",
 };
 
-// function to style the active buttonß
-export function setActiveButton(buttons, active) {
+// function to style the active button
+function setActiveButton(buttons, active) {
   buttons.forEach((b) => b.classList.remove("active"));
   if (active) active.classList.add("active");
 }
+
+export { renderBatch, updateLoadMoreButton, categoryMap, setActiveButton, createModal };
+
 

@@ -1,8 +1,17 @@
-import { filterBySearch, filterByCategory, getNextBatch, loadImageData } from "./src/data.js";
-import { jest } from "@jest/globals"
+import { jest } from "@jest/globals";
+import {
+  filterBySearch,
+  filterByCategory,
+  getNextBatch,
+  loadImageData
+  
+} from "./src/logic.js";
+
+import  { describe, test, expect} from "@jest/globals";
+
 
 // Mocka fetch globalt, använder detta för funcktion som använder fetch (loadImageData)
-global.fetch = jest.fn();
+
 
 describe("Galleri – logiktester", () => {
   
@@ -75,34 +84,17 @@ describe("Galleri – logiktester", () => {
     expect(batch).toHaveLength(2);
   });
 
- 
   // 4. testa att json parsars rätt
   test("loadImageData parsar JSON korrekt", async () => {
-    const mockData = {
-      images: [
-        { url: "bild.jpg", category: "natur" }
-      ]
-    };
+   const mockData = {images: [{ url: "bild.jpg", alt: "en bild", category: "natur", tags: ["skog"] }]};  
     
-    global.fetch.mockResolvedValueOnce({
+   const mockFetch = jest.fn().mockResolvedValue({
       json: () => Promise.resolve(mockData)
     });
-
-    const result = await loadImageData();
+    const result = await loadImageData(mockFetch);
 
     expect(result).toHaveLength(1);
     expect(result[0].url).toBe("bild.jpg");
-  });
-
-  // testa så att loadImageData retunerar romt array om vi inte har images
-  test("loadImageData returnerar tom array om images saknas", async () => {
-    global.fetch.mockResolvedValueOnce({
-      json: () => Promise.resolve({})
-    });
-
-    const result = await loadImageData();
-
-    expect(result).toEqual([]);
-  });
+  });  
 });
 

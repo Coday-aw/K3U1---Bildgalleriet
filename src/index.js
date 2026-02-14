@@ -1,6 +1,8 @@
-import { filterBySearch, filterByCategory, loadImageData } from "./src/data.js";
-import { renderBatch, updateLoadMoreButton, categoryMap, setActiveButton, createModal } from "./src/dom.js"
+import { filterBySearch, filterByCategory, loadImageData } from "./logic.js";
 
+import { renderBatch, updateLoadMoreButton, categoryMap, setActiveButton, createModal } from "./dom.js";
+
+// DOM-referenser (RÄTT plats!)
 const allBtn = document.getElementById("alla");
 const natureBtn = document.getElementById("natur");
 const animalBtn = document.getElementById("djur");
@@ -20,7 +22,6 @@ let currentIndex = 0;
 async function init() {
   allImages = await loadImageData();
   currentImages = allImages;
-
   setActiveButton(categoryButtons, allBtn);
   loadNext();
 }
@@ -29,7 +30,6 @@ function loadNext() {
   const added = renderBatch(currentImages, currentIndex, content, (img) =>
     createModal(dialog, img.url, img.alt)
   );
-
   currentIndex += added;
   updateLoadMoreButton(loadMore, currentIndex, currentImages.length);
 }
@@ -41,6 +41,7 @@ function reset(images) {
   loadNext();
 }
 
+// Events
 searchInput.addEventListener("input", (e) => {
   const filtered = filterBySearch(e.target.value, allImages);
   setActiveButton(categoryButtons, null);
